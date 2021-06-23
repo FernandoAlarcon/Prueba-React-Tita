@@ -1,0 +1,115 @@
+.div_1{ 
+
+}
+
+.textCopy{
+    color: #C3D0D8;
+}
+
+.FooterGalery{
+    text-align: center;
+}
+
+.divGaleria{
+    height: 900px;
+    border: grey 1px ;
+    width: auto;
+
+}
+
+.Articulos{
+    background: #F6F6F6;
+    width: 100%;
+    text-align: center;
+    position: relative;
+
+}
+
+.figureArticle{ 
+    text-align: center; 
+}
+
+
+.img_collage{
+    width: 100%;
+    height: 90%;
+}
+
+.divArticle{
+    color: white;
+    background: #FE667F;
+    width: 90%;
+    text-align: center;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    text-align: center;
+
+}
+
+.ArtAlone{
+    background: #F6F6F6;
+    width: 100%;
+    text-align: center;
+    height: 250px;
+    position: relative;
+
+}
+
+.div_icons{
+    text-align: center;   
+    letter-spacing: 1pt;
+    align-content: flex-start;
+}
+
+.iconText{
+    text-align: center;   
+    letter-spacing: 1pt;
+    align-content: flex-start;
+    
+}
+
+.icon_college{
+    color: white;
+    background: #FE667F;
+    margin-left: 5px;
+}
+
+.icon_college_2{
+    background: white;
+    color: #FE667F;
+    margin-right: 5px;
+
+}
+
+
+#galeria {
+    -moz-column-rule: 1px  #bbb;
+    -webkit-column-rule: 1px  #bbb;
+    column-rule: 1px  #bbb;
+    margin: 1rem auto;
+    width:100%;
+    max-width:960px;
+    column-count: 3;
+}
+
+.img_collage{
+    width: 95%; 
+}
+
+@media (max-width: 767px) { 
+    #galeria {
+        columns:2;
+    }
+
+}
+        
+/* Móviles en vertical */
+
+@media (max-width: 480px) {
+    #galeria {
+        columns: 1;
+    }
+}

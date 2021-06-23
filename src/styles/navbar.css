@@ -1,0 +1,9 @@
+.ButtonNav{
+    color:'#707070';
+    background:'white';
+}
+
+.ButtonNav :hover {
+    color:'white';
+    background: '#FF5672';
+}

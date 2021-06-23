@@ -1,0 +1,34 @@
+*{
+    font-family:Montserrat;
+}
+.container
+{
+  width: 100%;
+  background-color: #FC758C;
+  height: 500px;
+  color: white; 
+  position: relative;
+}
+.info-panel{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  
+    text-align: center;
+}
+
+.button-panel{
+    color: #FC758C;
+    background: white;
+}
+
+.headline
+{
+  padding: 5px 30px;  
+  margin:center ;
+}
+.text
+{
+  padding: 5px 30px;
+  font-size: 15px; 
+}
