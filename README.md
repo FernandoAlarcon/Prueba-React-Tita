@@ -1,7 +1,7 @@
 Open the console
 # git clone
 
-This project was create for Fernando Alarcon, it a test for the company Tita Medica
+This project was create by Fernando Alarcon, it a test for the company Tita Medica
 
 ## cd file
 
